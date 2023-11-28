@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    border-spacing: 0px;
+    border: 1px solid #3c3c3c;
+    background-color: #e1e1e2;
+    margin: auto;
+}
+
+.piece {
+    border-spacing: 0px;
+    border: 1px solid;
+}
+
+#buttonContainer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
